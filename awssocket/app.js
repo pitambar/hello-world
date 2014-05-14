@@ -2,6 +2,7 @@
 //Include the cluster module
 var cluster = require('cluster');
 var https = require('https');
+var http = require('http');
 //Code to run if we're in the master process
 if (cluster.isMaster) {
 
